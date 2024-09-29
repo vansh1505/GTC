@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup-TAG</title>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
+    <div class="bg-container"></div>
+    <div class="form-container">
+      <h3>sign up</h3>
+
+      <form action="">
+        <div class="inputBox">
+          <label for="username">username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+
+        <div class="inputBox">
+          <label for="email">email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="inputBox">
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+
+        <div class="inputBox">
+          <input type="submit" value="sign up" />
+        </div>
+      </form>
+    </div>
+
+    <script>
+      const bgContainer = document.querySelector(".bg-container");
+      for (let i = 0; i < 1000; i++) {
+        const newSpan = document.createElement("span");
+        bgContainer.appendChild(newSpan);
+      }
+    </script>
+  </body>
+</html>
